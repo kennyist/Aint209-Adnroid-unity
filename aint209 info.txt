@@ -1,0 +1,52 @@
+	---	Connection to Unity master server is required to create a game and connect android device 	---
+
+[Project files]
+
+Included in /project/ (runs in 4.3.2f including pro features)
+
+[GDD]
+
+shared 207/209: 	- /GDD/AINT209-AS2-GDD.pdf
+Online version:		- https://docs.google.com/document/d/1aUd5QUef4PfNV6iniXFm1_Cp2Es1BODQAzYwINws724/edit?usp=sharing
+
+209 details:		- /GDD/AINT209-GDD-android.pdf
+Online version:		- https://docs.google.com/document/d/17wqjMbQjqDpxkNf-SFhFoA688xt5CfIHUsVXT2Lj4ec/edit?usp=sharing
+
+[Included executables]
+
+windows 		- /Executables/Windows/aint209.exe
+Mac 			- /Executables/Mac/aint209.app 		(WARNING: i have no idea how well this will run on mac as i do not own one)
+Android			- /Executables/Android/aint209.apk
+
+[Gameplay videos]
+
+full gameplay video of windows and android side included in /video/
+
+They where recorded at the same time in the same game, Run both at the same to see what happens together.
+
+[Links]
+
+website: 		- http://www.tristanjc.com/
+blog: 			- http://blog.kennyist.com/
+
+[Other info]
+
+I hold settings via a iniParser i created, So if anything doesnt work you can edit all settings from the "gameDirectory/data folder/config.ini" (windows)
+
+If you edit Controller or FX settings in the config, these can be reloaded once in level via F5, other settings require restart.
+
+You can also play with current XP and xp settings in XP.ini
+
+[Controls]
+
+right click 		- camera change
+WASD 			- move
+f			- Interact
+p			- add XP (debug)
+F5			- reload config.ini (debug)
+shift			- Fast walk
+ctrl 			- slow walk
+space			- jump
+mouse movement		- camera
+E			- End game (once objectives are done)
+Num 1			- Start Minigame on android (debug)
